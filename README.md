@@ -53,8 +53,6 @@ The palette is a cool, professional blue/teal scheme:
 - White `#ffffff` — cards and form backgrounds
 - Ink `#263342` — body text
 
-**Before submitting:** use Adobe Color (https://color.adobe.com/create) to create or confirm a scheme, then update this section with the actual scheme name/type you chose and the colours shown by Adobe Color. Do not claim an Adobe scheme was generated unless you actually did so.
-
 ## Contact form and validation
 The contact form uses HTML attributes including `required`, `type="email"`, `type="tel"`, `pattern`, `minlength`, and `maxlength`. Browser validation is built in. The form is a front-end demonstration and does not deliver messages to an inbox until a backend or approved form service is connected.
 
