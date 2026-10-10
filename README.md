@@ -1,7 +1,7 @@
 # INFR3120 Assignment 1 — Personal Portfolio
 
 ## Student details
-- **Name:** REPLACE WITH YOUR FULL NAME
+- **Name:** Tayyab Farooq 100920589
 - **Course:** INFR3120 – Web and Scripting Programming
 - **Assignment:** Portfolio Site using HTML5 and CSS3
 
@@ -61,41 +61,4 @@ The contact form uses HTML attributes including `required`, `type="email"`, `typ
 ## Semantic HTML and accessibility
 Pages use semantic elements such as `header`, `nav`, `main`, `section`, `article`, `figure`, `footer`, `form`, `label`, and headings in logical order. Images have alternative text, form controls have labels, and keyboard focus is visible. Replace placeholder alternative text with an accurate description of your photo.
 
-## Testing checklist
-Complete these checks after adding your own information and publishing the site:
-- [ ] Validate each HTML file with https://validator.w3.org/
-- [ ] Validate each CSS file with https://jigsaw.w3.org/css-validator/
-- [ ] Check links with https://validator.w3.org/checklink
-- [ ] Run spelling/grammar checking and correct all issues
-- [ ] Test the deployed website with https://wave.webaim.org/
-- [ ] Test navigation, video playback, form validation, and layout at mobile/tablet/desktop widths
-- [ ] Fix any errors and re-run the checks
 
-Record the date and any remaining warnings here:
-- HTML validation:
-- CSS validation:
-- Link checker:
-- Spell check:
-- WAVE accessibility:
-
-## GitHub version control and deployment
-1. Create a **public** GitHub repository for this assignment.
-2. Upload the project files, keeping the folder structure shown above.
-3. Commit changes in stages with meaningful messages, for example:
-   - `Create four portfolio pages`
-   - `Add responsive CSS layouts`
-   - `Add profile image and introduction video`
-   - `Add contact form validation`
-   - `Complete README and testing fixes`
-4. In repository **Settings → Pages**, choose the `main` branch and `/ (root)` folder, then save.
-5. Wait for GitHub Pages to publish. Copy the live URL and repository URL into your course submission.
-6. Zip the project folder and submit the ZIP on Canvas.
-
-- **GitHub repository URL:** ADD YOUR REPOSITORY URL
-- **Live GitHub Pages URL:** ADD YOUR LIVE WEBSITE URL
-
-## External code and attribution
-This starter was written for this assignment using standard HTML and CSS patterns. If you add any code from websites, tutorials, or other sources, cite the source and author in this README, explain the code in comments, and follow the assignment's external-code limit. Course lecture code may be used as allowed by the assignment instructions.
-# assignment-1
-# assignment-1
-# assignment-123
