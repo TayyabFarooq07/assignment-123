@@ -1,0 +1,5 @@
+/* Laptop/desktop layout: 1025px and wider. Wider gutters and three-column project cards suit larger screens. */
+.site-header { padding-left: max(7%, calc((100% - 1120px) / 2)); padding-right: max(7%, calc((100% - 1120px) / 2)); }
+.hero { padding-left: max(8%, calc((100% - 1050px) / 2)); }
+.content-section { padding-top: 52px; padding-bottom: 52px; }
+.feature-card, .project-card { width: 31.33%; }

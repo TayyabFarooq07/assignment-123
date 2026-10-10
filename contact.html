@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact form">
+  <title>Contact Me | Tayyab Farooq</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="(max-width: 600px)" href="css/mobile.css">
+  <link rel="stylesheet" media="(min-width: 601px) and (max-width: 1024px)" href="css/tablet.css">
+  <link rel="stylesheet" media="(min-width: 1025px)" href="css/laptop.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="brand">Tayyab Farooq</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h1>Contact Me</h1>
+      <p>Use the form below to send a message.</p>
+    </section>
+
+    <section class="contact-layout content-section">
+      <article class="contact-intro">
+        <h2>Get in touch</h2>
+        <p>If you have a question about my work or would like to connect, complete the form. Fields marked required must be filled in.</p>
+        <p><strong>Email:</strong> <a href="mailto:YOUR_EMAIL@example.com">TayyabF62@gmail.com</a></p>
+      </article>
+
+      <!-- This front-end form validates input in the browser; it does not send email without a backend/form service. -->
+      <form class="contact-form" action="#" method="get">
+        <div class="form-field">
+          <label for="full-name">Full name *</label>
+          <input id="full-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80" placeholder="Your full name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email address *</label>
+          <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() .-]{7,20}" title="Enter 7 to 20 characters using digits, spaces, +, parentheses, periods, or hyphens." placeholder="e.g. 905-555-0100">
+        </div>
+        <div class="form-field">
+          <label for="comments">Message *</label>
+          <textarea id="comments" name="comments" rows="6" required minlength="10" maxlength="1000" placeholder="Write your message here"></textarea>
+        </div>
+        <button class="submit-button" type="submit">Submit Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Contact: <a href="mailto:YOUR_EMAIL@example.com">TayyabF62@gmail.com</a></p>
+    <p>&copy; 2026 Tayyab Farooq. All rights reserved.</p>
+  </footer>
+</body>
+</html>

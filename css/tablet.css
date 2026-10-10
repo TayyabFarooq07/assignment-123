@@ -1,0 +1,11 @@
+/* Tablet layout: 601px–1024px. Two-column cards use available width without making text lines too long. */
+.site-header { padding-left: 5%; padding-right: 5%; }
+.hero { padding: 62px 6%; }
+.hero h1 { font-size: 2.4rem; }
+.content-section { padding: 40px 5%; }
+.feature-card, .project-card { width: 47.5%; margin: 0 1% 20px; }
+.feature-grid, .project-grid { margin-left: -5px; margin-right: -5px; }
+.profile-frame { width: 38%; margin-right: 4%; }
+.about-layout article { width: 58%; }
+.contact-intro { width: 32%; margin-right: 4%; }
+.contact-form { width: 64%; padding: 22px; }

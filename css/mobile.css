@@ -1,0 +1,20 @@
+/* Mobile layout: 600px and below. Single-column cards and stacked content improve readability on narrow screens. */
+body { font-size: 15px; }
+.site-header { padding: 16px 5%; }
+nav li { margin: 4px 14px 4px 0; }
+nav a { font-size: 0.92rem; }
+.hero { padding: 52px 6%; }
+.hero h1 { font-size: 2rem; }
+.hero-copy { font-size: 1rem; }
+.content-section { padding: 32px 5%; }
+.page-heading { padding: 32px 5%; }
+.page-heading h1 { font-size: 2rem; }
+.feature-card, .project-card { display: block; width: 100%; margin: 0 0 16px; padding: 20px; }
+.feature-grid, .project-grid { margin: 20px 0 0; }
+.profile-frame, .about-layout article, .contact-intro, .contact-form {
+  display: block;
+  width: 100%;
+  margin: 0 0 24px;
+}
+.contact-form { padding: 20px; }
+.text-link { display: inline-block; margin: 14px 0 0; }
