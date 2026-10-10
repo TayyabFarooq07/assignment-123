@@ -96,3 +96,4 @@ Record the date and any remaining warnings here:
 
 ## External code and attribution
 This starter was written for this assignment using standard HTML and CSS patterns. If you add any code from websites, tutorials, or other sources, cite the source and author in this README, explain the code in comments, and follow the assignment's external-code limit. Course lecture code may be used as allowed by the assignment instructions.
+# assignment-1
